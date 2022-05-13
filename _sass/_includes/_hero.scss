@@ -1,0 +1,106 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Profile
+
+// - - - - - - - - - - - - - - - - - -
+
+
+.hero {
+	position: relative;
+	margin-top: 20px;
+	// padding: 60px 0 100px;  // Original (larger vertically).
+	padding: 45px 0 75px;  // Changed.
+	// padding: 30px 0 50px;  // Thin (smaller vertically).
+	background: $hero-background-color;
+
+	@include mq(tabletp) {
+		margin-top: 25px;
+		// padding: 120px 0 180px;  // Original (larger vertically).
+		padding: 90px 0 135px;  // Changed.
+		// padding: 60px 0 90px;  // Thin (smaller vertically).
+	}
+
+	@include mq(laptop) {
+		margin-top: 30px;
+		// padding: 160px 0 220px;  // Original (larger vertically).
+		padding: 120px 0 165px;  // Changed.
+		// padding: 80px 0 110px;  // Thin (smaller vertically).
+	}
+
+	h1 {
+		color: $hero-text-color;
+
+		@include mq(tabletp) {
+			white-space: pre-line;
+		}
+	}
+
+	p {
+		color: rgba($hero-text-color, 0.8);
+
+		@include mq(tabletp) {
+			margin-top: 25px;
+		}
+
+		@include mq(laptop) {
+			margin-top: 30px;
+		}
+	}
+
+	.socials {
+		margin-top: 15px;
+
+		@include mq(tabletp) {
+			margin-top: 25px;
+		}
+
+		@include mq(laptop) {
+			margin-top: 30px;
+		}
+	}
+
+	.socials__item__link {
+		background: rgba($hero-text-color, 0.8);
+		color: $hero-background-color;
+
+		&:hover {
+			background: $hero-text-color;
+		}
+	}
+}
+
+.hero--thin {
+	padding: 15px 0 50px;  // Thin (smaller vertically).
+
+	@include mq(tabletp) {
+		padding: 30px 0 90px;  // Thin (smaller vertically).
+	}
+
+	@include mq(laptop) {
+		padding: 40px 0 110px;  // Thin (smaller vertically).
+	}
+}
+
+.hero__image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hero__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+.hero__overlay--opacity {
+	background: rgba($hero-background-color, $overlay-opacity);
+}

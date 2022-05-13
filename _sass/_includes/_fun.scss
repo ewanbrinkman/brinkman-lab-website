@@ -1,0 +1,24 @@
+.fun--image {
+  object-fit: cover;
+  max-width: $fun-image-width;
+  max-height: $fun-image-height;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.fun--list {
+  list-style: none;
+  padding-top: 30px;
+  text-align: center;
+  font-size: larger;
+  img {
+    object-fit: cover;
+    max-width: $fun-image-width;
+    max-height: $fun-image-height;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,155 @@
+current:
+  - name: "[Fiona Brinkman](/fiona-brinkman)"
+    position: Professor and Head
+    about:
+    image_path: /images/people/current/fiona-brinkman.jpg
+    image_offset: 50% 15%
+
+  - name: Geoff Winsor
+    position: Lead Database Developer, Bioinformatics
+    about:
+    image_path: /images/people/current/geoff-winsor.jpg
+    image_offset: 50% 50%
+
+  - name: Nolan Woods
+    position: Bioinformatics Software Developer
+    about:
+    image_path: /images/people/current/nolan-woods.png
+    image_offset: 50% 50%
+
+  - name: Justin Cook
+    position: Database Developer/Analyst
+    about:
+    image_path: /images/people/current/justin-cook.png
+    image_offset: 50% 0%
+
+  - name: Erin Gill
+    position:
+      "Research Associate<br>
+      Canadian COVID Genomics Network (CanCOGeN) VirusSeq Project Manager<br>
+      Omics Data Science Initiative (ODSI) Project Manager<br>
+      Research Portfolio Manager, Brinkman Lab"
+    about:
+    image_path: /images/people/current/erin-gill.jpg
+    image_offset: 50% 50%
+
+  - name: Patrick Taylor
+    position: Postdoc
+    about:
+    image_path: /images/people/current/patrick-taylor.jpg
+    image_offset: 75% 50%
+
+  - name: Kristen Gray
+    position: Graduate Student
+    about:
+    image_path: /images/people/current/kristen-gray.jpg
+    image_offset: 50% 50%
+
+  - name: Justin Jia
+    position: Graduate Student
+    about:
+    image_path: /images/people/current/justin-jia.jpg
+    image_offset: 50% 50%
+
+  - name: Venus Lau
+    position: Graduate Student
+    about:
+    image_path: /images/people/current/venus-lau.jpg
+    image_offset: 50% 50%
+
+  - name: Emma Garlock
+    position: Graduate Student
+    about:
+    image_path: /images/people/current/emma-garlock.jpg
+    image_offset: 50% 50%
+
+  - name: Natalie Kumpula
+    position: Student
+    about:
+    image_path:
+    image_offset: 50% 50%
+
+alumni:
+  - name: Wai-Kay Ho-Ching
+  - name: Wesley Sydor
+  - name: Shannan J. Ho Sui
+  - name: Shanmugaraj (Shan) Sundararaj
+  - name: Dean Cheng
+  - name: David Goode
+  - name: Michael Hsing
+  - name: Carol Huang
+  - name: Cory Spencer
+  - name: Korine Ung
+  - name: Benjamin Horsman
+  - name: ChristopherWalsh
+  - name: Alison Meynert
+  - name: Debra Fulton
+  - name: Parmit Chilana
+  - name: Yvonne Li
+  - name: Jennifer Gilchrist
+  - name: Wynne Lok (co-super.)
+  - name: Elbert Chang
+  - name: Gregory Doho (co-super.)
+  - name: Karsten Hokamp
+  - name: Jennifer Gardy
+  - name: Simon Chan (co-super.)
+  - name: Leon French (co-super.)
+  - name: Diane Wu
+  - name: Sophia Wong
+  - name: Fiona Roche
+  - name: Dan Tulpan
+  - name: John Ling
+  - name: Diane Wu
+  - name: Mark Sun
+  - name: William Hsiao
+  - name: Lillian Lau (visitor)
+  - name: Sébastien Rey
+  - name: Amber Fedynak
+  - name: Bhav Khaira
+  - name: Denil Wickrama
+  - name: Naisha Shah (visitor)
+  - name: Tim Chan (part time visitor)
+  - name: Chi Kin Ho
+  - name: David Mulder
+  - name: Parikshit Totawar
+  - name: Misbah Naseer (visitor)
+  - name: Nicolas Richard
+  - name: Morgan Langille
+  - name: Andrew MacPherson
+  - name: Leanne Fleming
+  - name: David Lynn
+  - name: Hamza Khan
+  - name: Ogan Mancarci
+  - name: Raunak  Shrestha
+  - name: Calvin Chan (visitor)
+  - name: Cory Spencer
+  - name: David Lam
+  - name: Nancy Yu
+  - name: Ian Wood
+  - name: Terry Chiu
+  - name: Raunak Shrestha
+  - name: Karin Breuer
+  - name: Carol Chen
+  - name: Erin Gill
+  - name: Matthew Whiteside
+  - name: Luisa Chan
+  - name: Lorraine Brown
+  - name: Anastasia Sribnaia
+  - name: Mackenzie Caulfield
+  - name: James Topham
+  - name: Amir Foroushani
+  - name: Sílvia Frías
+  - name: Melanie Courtot
+  - name: Matthew Laird
+  - name: Jason Spence
+  - name: Bhav Dhillon
+  - name: Julie Shay
+  - name: Mike Peabody
+  - name: Thea Van Rossum
+  - name: Adrian Lim
+  - name: Keith Tilley
+  - name: Will Beh
+  - name: Claire Bertelli
+  - name: Hanadi Ibrahim
+  - name: Vivian Jin
+  - name: Margit Glashutter

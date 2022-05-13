@@ -1,0 +1,68 @@
+---
+layout: default
+title: Microbe-loving bioinformatics and genomics research lab, aiming to better control infectious diseases – and support health – in a sustainable way
+header: Microbe-loving bioinformatics and genomics research lab, aiming to better control infectious diseases – and support health – in a sustainable way
+subheader: "Fiona Brinkman, PhD FRSC <br> Distinguished Professor, Simon Fraser University"
+description: The {{ site.data.settings.basic_settings.site_title }} at SFU.
+featured_image: /images/home/home-coloured.png
+---
+
+<section class="hero hero--thin">
+
+	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
+		<div class="hero__overlay hero__overlay--opacity"></div>
+	</div>
+
+	<div class="wrap">
+
+		<h1>{{ page.header | flatify }}</h1>
+		<p><big>{{ page.subheader | flatify }}</big></p>
+
+		{% include socials.html %}
+
+	</div>
+
+</section>
+
+<section class="single">
+
+	<div class="wrap">
+
+		<article class="single-post">
+
+			{% capture body_text %}{% include index.md %}{% endcapture %}
+			{{ body_text | flatify | markdownify }}
+
+		</article>
+
+	</div>
+
+</section>
+
+<section class="listing">
+
+	<div class="wrap">
+
+		{% for project in site.projects reversed %}
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ project.featured_image | relative_url }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+					<p class="post__subtitle">{{ project.subtitle }}</p>
+					<p class="post__description">{{ project.description }}</p>
+				</div>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>
